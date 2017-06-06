@@ -3,7 +3,7 @@
 const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /* 0: qwerty */
     KEYMAP_ANSI(
-        VOLD , MUTE , VOLU , TRNS , TRNS , TRNS , TRNS , TRNS  , TRNS , TRNS , TRNS , TRNS , TRNS , TRNS , \
+        MPRV , MPLY , MNXT , TRNS , TRNS , TRNS , TRNS , TRNS  , TRNS , TRNS , TRNS , TRNS , TRNS , TRNS , \
         TRNS , TRNS , TRNS , TRNS , TRNS , TRNS , TRNS , TRNS  , TRNS , TRNS , TRNS , TRNS , TRNS , TRNS , \
         TRNS , TRNS , TRNS , TRNS , TRNS , TRNS , TRNS , TRNS  , TRNS , TRNS , TRNS , TRNS , TRNS , \
         TRNS , TRNS , TRNS , TRNS , TRNS , TRNS , TRNS , TRNS  , TRNS , TRNS , TRNS , TRNS , \
