@@ -11,5 +11,4 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 const action_t PROGMEM fn_actions[] = {
     [0] = ACTION_LAYER_TOGGLE(0)
-        //ACTION_DEFAULT_LAYER_SET(0),
 };
