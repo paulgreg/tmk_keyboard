@@ -112,14 +112,14 @@ static matrix_row_t read_cols(void)
 }
 
 /* Row pin configuration
- * row:  0
- * pin: F0
+ * row:  0  1
+ * pin: F0 F1
  */
 static void unselect_rows(void)
 {
     // Hi-Z(DDR:0, PORT:0) to unselect
-    DDRF  &= ~(1<<1);
-    PORTF |=  (1<<1);
+    DDRF  &= ~0b00000011;
+    PORTF &= ~0b00000011;
 }
 
 static void select_row(uint8_t row)
@@ -129,6 +129,10 @@ static void select_row(uint8_t row)
         case 0:
             DDRF  |= (1<<0);
             PORTF &= ~(1<<0);
+            break;
+        case 1:
+            DDRF  |= (1<<1);
+            PORTF &= ~(1<<1);
             break;
     }
 }

@@ -24,11 +24,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    geekhack
-#define PRODUCT         3keys
-#define DESCRIPTION     t.m.k. 3-keys keyboard firmware
+#define PRODUCT         6keys
+#define DESCRIPTION     t.m.k. audio keyboard firmware
 
 /* key matrix size */
-#define MATRIX_ROWS 1
+#define MATRIX_ROWS 2
 #define MATRIX_COLS 3
 
 /* define if matrix has ghost */
