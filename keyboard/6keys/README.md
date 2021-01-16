@@ -1,18 +1,18 @@
 6 keys keyboard firmware
 ======================
 
-A mini keyboard for audio : 
+A mini keyboard for audio :
  - volume control : ⬆️ 🔇 ⬇️
  - tracks control : ⏮️ ⏯️ ⏭️
- 
+
 It works without driver on Windows, GNU/Linux & Mac Os X.
 
-## Layout 
+## Layout
 
     ,--------------.
     |VOLD|MUTE|VOLU|
     |--------------|
-    |MPRV|MPLY|MNXT 
+    |MPRV|MPLY|MNXT
     `--------------'
 
 Keys are configured in `keymap_pocker.c` and cols/row are defined in `matrix.c`.
@@ -38,3 +38,5 @@ Open then Teensy Loader and flash `gh60_lufa.hex`.
 ## Resources
 
   * [How to build your very own keyboard firmware](https://deskthority.net/viewtopic.php?f=7&t=7177&start=#p141386)
+  * [Assembly hand wired guide (pdf)](https://atreus.technomancy.us/assembly-hand-wired.pdf)
+  * [Conception et réalisation d’un clavier mécanique ergonomique](https://beastie.lesfurets.com/articles/conception-realisation-dun-clavier-mecanique-ergonomique)
